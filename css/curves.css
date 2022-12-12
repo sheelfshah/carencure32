@@ -85,7 +85,7 @@
   background-color: #8f9569;
   background-position: center;
   background-blend-mode: multiply;
-  background-position: 0px 50px;
+  background-position: 0% -10%;
   background-repeat: repeat-x;
   padding-top: 0;
 }
@@ -126,7 +126,8 @@
   animation-fill-mode: both;
 }
 
-i.fab, img.gmaps, img.call, img.gmail{
+i.fab, img.gmaps, img.call, img.gmail,
+img.wa, img.contact{
   display: inline-block;
   font-size: 6.5vmin;
   height: 8vmin;
