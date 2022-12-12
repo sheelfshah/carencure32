@@ -7,8 +7,11 @@ function statanimation() {
     easing: 'swing',
     step: function() {
       $this.text(Math.ceil(this.Counter));
+    }, complete: function() {
+      $this.text(num);
     }
   });
+  // 
 }
 
 $(window).scroll(startCounter1);

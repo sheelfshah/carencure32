@@ -126,7 +126,7 @@
   animation-fill-mode: both;
 }
 
-i.fab, img.gmaps, img.call{
+i.fab, img.gmaps, img.call, img.gmail{
   display: inline-block;
   font-size: 6.5vmin;
   height: 8vmin;
