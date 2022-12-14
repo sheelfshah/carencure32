@@ -198,7 +198,7 @@ p {
 .intro-img{
   background-image: url(../media/shop_min.png);
   background-size: cover;
-  background-color: #8f9569;
+  background-color: #afb589;
   background-position: center;
   background-blend-mode: multiply;
   min-height: min(45vw, 70vh);

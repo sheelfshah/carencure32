@@ -63,8 +63,13 @@
 }
 
 #curve1 {
-  background: #197dcf;
+  background-image: url(../media/violet_flower_bg.JPG);
+  background-size: cover;
+  background-position: center;
   padding-top: 0px;
+}
+#curve1 .container{
+  min-height: min(50vw, 75vh);
 }
 
 #logo_div{
