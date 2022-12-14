@@ -107,9 +107,14 @@ p {
   font-size: 1.5rem;
   list-style-position: inside;
   list-style-type: hyphen;
+  text-align: left;
+  padding-left: 20%;
 }
 .section-heading-lower ul li::marker{
   content: "-";
+}
+.section-heading-lower ul li{
+  white-space: nowrap;
 }
 
 
