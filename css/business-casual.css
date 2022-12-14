@@ -92,15 +92,26 @@ p {
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 800;
+  color: var(--violet_main);
 }
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
 }
+
+.section-heading .section-heading-lower ul{
+  font-size: 1.7rem;
+  list-style-position: inside;
+  list-style-type: hyphen;
+}
+.section-heading-lower ul li::marker{
+  content: "-";
+}
+
 
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
@@ -182,6 +193,15 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.intro-img{
+  background-image: url(../media/shop_min.png);
+  background-size: cover;
+  background-color: #8f9569;
+  background-position: center;
+  background-blend-mode: multiply;
+  min-height: min(80vw, 80vh);
 }
 
 .cta {

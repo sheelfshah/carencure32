@@ -80,7 +80,7 @@
 }
 
 #curve3 {
-  background-image: url(../media/shop_min.png);
+  background-image: url(../media/staff.jpg);
   background-size: cover;
   background-color: #8f9569;
   background-position: center;
@@ -99,6 +99,7 @@
 }
 
 #curve5 {
+  display: none;
   background: #ffe599;
   padding-bottom: 5%;
   color: #5f3e27;
