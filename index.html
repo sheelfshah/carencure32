@@ -155,37 +155,56 @@
       <div class="row justify-content-center cont-animate">
         <div class="text-center rounded col-md-9">
           <p class="section-heading mb-4 merch-heading" style="white-space: nowrap; font-size: max(5vw,5vh);">Find Us</p>
-        <div class="row">
-          <div class="col-3">
-            <div class="ig">
-              <a href="https://instagram.com/violetskinoutfits?igshid=YmMyMTA2M2Y=" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
+          <div class="row justify-content-center cont-animate">
+            <div class="text-center col-md-9">
+              <form class="section-heading" onsubmit="submitButton()">
+                <h4 class="section-heading-upper">Sign up for product updates and discounts!</h4>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I have read the <a href="https://violetruchi.com/violet/terms_of_use.html" target="_blank">Terms of Use</a> and <a href="https://violetruchi.com/violet/privacy_policy.html" target="_blank">Privacy Policy</a></label><br>
+                <input type="checkbox" id="notifications" name="notifications" required>
+                <label for="notifications">I consent to receiving notifications via SMS/email</label><br><br>
+                <input type="submit" value="Submit">
+              </form>
             </div>
           </div>
-          <div class="col-3">
-            <div class="whatsapp">
-              <a href="https://wa.me/message/GZP6Q7WWAANJG1" target="_blank">
-                <img class="wa" src="media/others/whatsapp.webp"/>
-              </a>
+          <div class="row">
+            <div class="col-3">
+              <div class="ig">
+                <a href="https://instagram.com/violetskinoutfits?igshid=YmMyMTA2M2Y=" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="whatsapp">
+                <a href="https://wa.me/message/GZP6Q7WWAANJG1" target="_blank">
+                  <img class="wa" src="media/others/whatsapp.webp"/>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="gmap">
+                <a href="https://maps.app.goo.gl/5Wf28UrL3Hc3LEfp9" target="_blank">
+                  <img class="gmaps" src="media/others/gmaps.webp"/>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="contact">
+                <a href="media/violet.vcf" type="text/vcard">
+                  <!-- download="violet.vcf"  -->
+                  <img class="contact" src="media/others/contact.webp"/>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="gmap">
-              <a href="https://maps.app.goo.gl/5Wf28UrL3Hc3LEfp9" target="_blank">
-                <img class="gmaps" src="media/others/gmaps.webp"/>
-              </a>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="contact">
-              <a href="media/violet.vcf" type="text/vcard">
-                <!-- download="violet.vcf"  -->
-                <img class="contact" src="media/others/contact.webp"/>
-              </a>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
       <br>
@@ -230,7 +249,40 @@
       }
     });
   });
+
+  function submitButton() {
+    alert('Thank you, your response has been recorded!');
+    return false;
+  }
   </script>
+  <style>
+    form {
+      border: solid 1px rgba(0, 0, 0, 0.5);
+      border-radius: 2vh;
+      padding-top: 4vh;
+      padding-bottom: 2vh;
+      margin-bottom: 4vh;
+    }
+    label[for="name"], label[for="mobile"], label[for="email"] {
+      display: inline-block;
+      width: 200px; /* Adjust width as needed */
+      text-align: left;
+    }
+    input[type="text"], input[type="email"], input[type="tel"] {
+      width: 200px; /* Adjust width as needed */
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: transparent;
+      color: var(--violet_main);
+      font-size: 1.3rem;
+      font-weight: 800;
+      padding: 5px;
+      border: 1px solid;
+      font-family: 'Raleway';
+      text-transform: uppercase;
+    }
+  </style>
 </body>
 
 </html>
