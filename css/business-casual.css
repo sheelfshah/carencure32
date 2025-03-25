@@ -6,10 +6,10 @@
   --navitem-color: rgba(255, 255, 255, 0.7);
   --navitem-hover: rgba(255, 255, 255, 0.4);
   */
-  --accent-color: #7b0094dd;
+  --accent-color: #34ad88dd;
   --accent-faded09: #01bb01dd;
   --accent-faded05: #11dd1188;
-  --accent-dark: #7b0094;
+  --accent-dark: #34ad88;
   --navbar-color: #000000dd;
   --navitem-color: rgba(255, 255, 255, 0.7);
   --navitem-hover: rgba(255, 255, 255, 0.4);
@@ -17,6 +17,8 @@
   --violet_secondary: #a85cb3;
   --ruchi_main: #8a0042;
   --ruchi_secondary: #d80071;
+  --carencure32_main: #34ad88;
+  --carencure32_secondary: #a5aec0;
 }
 
 body {
@@ -26,7 +28,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-color: #fffaf1;
+  background-color: #ffffff;
   overflow-x: hidden;
   margin-top: min(14vh, 10vw);
 }
@@ -94,7 +96,7 @@ p {
   display: block;
   font-size: 1.3rem;
   font-weight: 800;
-  color: var(--violet_main);
+  color: var(--carencure32_main);
 }
 
 .section-heading .section-heading-lower {
@@ -297,8 +299,8 @@ p {
 }
 
 .footer {
-  background: #fffaf1;
-  color: var(--violet_secondary);
+  background: #ffffff;
+  color: var(--carencure32_secondary);
 }
 
 .footer hr {
@@ -307,7 +309,7 @@ p {
   margin-left: 1%;
 }
 .footer *{
-  color: var(--violet_secondary);
+  color: var(--carencure32_secondary);
 }
 
 .text-primary {
