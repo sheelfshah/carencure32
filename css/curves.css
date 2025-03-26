@@ -224,3 +224,7 @@ img.wa, img.contact{
 .carousel-indicators {
   background-color: #5f3e27;
 }
+
+#WhoIsDr > p {
+  line-height: 1;
+}
